@@ -30,4 +30,5 @@ remoteリポジトリの変更をローカルリポジトリに取り込む。�
 
 ## git pull --rebase
 remoteリポジトリから変更を取り込んでから、現在作業中のブランチの変更を取り込んだブランチの先端にコピーし、結果を統合する。
+
 つまり、git pullを実行すると、git fetch + git mergeが実行されるが、git pull --rebaseを実行すると、git fetch + get rebaseが実行される。
